@@ -14,6 +14,7 @@ Criar um projeto:
 npx create-expo-app StickerSmash
 
 cd StickerSmash
+npm i
 
 npx expo install react-dom react-native-web @expo/webpack-config
 
