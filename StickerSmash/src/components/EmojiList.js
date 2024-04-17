@@ -10,13 +10,14 @@ export default function EmojiList({ onSelect, onCloseModal }) {
     require('../../assets/images/emoji5.png'),
     require('../../assets/images/emoji6.png'),
   ]);
+
   return (
     <FlatList
       horizontal
       data={emoji}
       contentContainerStyle={styles.listContainer}
       renderItem={({ item, index}) => (
-        <Pressable 
+        <Pressable
           onPress={() => {
             onSelect(item);
             onCloseModal();
@@ -42,5 +43,5 @@ const styles = StyleSheet.create({
     width: 100,
     height: 100,
     marginRight: 20
-  },
+  }
 })
