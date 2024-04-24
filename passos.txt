@@ -26,3 +26,5 @@ npx expo start --localhost --android
 
 Para instalar o image picker
 npx expo install expo-image-picker
+
+npx expo install react-native-gesture-handler react-native-reanimated
